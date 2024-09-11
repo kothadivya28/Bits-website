@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.obox{
+    border: solid 1px;
+    height: 150px;
+    display: flex;
+
+}
+#inbox1,#inbox2{
+    border: solid 1px;
+    height: 150px;
+    z-index: -1;
+
+}
+#inbox1{
+    width: 150px;
+}
+#inbox2{
+    width: 1800px;
+    text-align: center;
+}
+#clgname{
+    font-size: 65px;
+    color: crimson;
+
+}
+#scrollclg{
+    font-size: 30px;
+    font-weight: bold;
+    color: midnightblue;
+}
+#navbox{
+    border: solid 1px;
+    height: 50px;
+}
+ul li{
+    border: solid 1px;
+    height: 50px;
+    width: 200px;
+    float: left;
+    text-align: center;
+    line-height: 47px;
+    background-color: #7fffd4;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    border-radius: 20px;
+}
+ul{
+    list-style: none;
+}
+ul li a{
+    color: #037bdd;
+    font-size: 22px;
+    text-decoration: none;
+}
+ul li ul li{
+    display: none;
+}
+ul li:hover ul li{
+    display: block;
+}
+ul li:hover{
+    background-color: #ee25a4;
+}
+.Outerbox{
+    border: solid 1px;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+#in1,#in2,#in3{
+    border: solid 1px;
+    height: 350px;
+    z-index: -1;
+
+}
+#in1{
+    width: 700px;
+    background-image: url(institute.avif);
+    background-repeat: no-repeat;
+    background-size: 700px 350px;
+    animation-name: imgchange;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes imgchange{
+    10%{
+        background-image: url(img1.jpg);
+    }
+    20%{
+        background-image: url(img7.jpg);
+    }
+    30%{
+        background-image: url(im6.jpg);
+    }
+    40%{
+        background-image: url(technology.jpg);
+    }
+    50%{
+        background-image: url(science.jpg);
+    }
+    60%{
+        background-image: url(Div.jpg);
+    }
+}
+#in2,#in3{
+    width: 280px;
+    
+}
+#placebox{
+    border: solid 1px;
+    height: 250px;
+}
+#Placements{
+    text-align: center;
+    font-size: 60px;
+    color: #ff0000;
+}
